@@ -1,0 +1,136 @@
+@media screen and (max-width: 1200px) {
+    .video_box{
+        max-width: 600px;
+        height: 320px;
+    }
+    .pos_rel{
+        position: relative;
+        left: 141px;
+    }
+    .pos_abs{
+        position: absolute;
+    }
+    .img_one{
+        z-index: 1;
+        left: -494px;
+    }
+    .img_two{
+        z-index: 2;
+        left: -257px;
+    }
+    .img_three{
+        z-index: 3;
+        left: -24px;
+    }
+    .img_for{
+        z-index: 4;
+        left: 211px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .pos_rel{
+        position: unset;
+        left: unset;
+    }
+    .pos_abs{
+        position: unset;
+    }
+    .img_one{
+        z-index: unset;
+        left: unset;
+    }
+    .img_two{
+        z-index: unset;
+        left: unset;
+    }
+    .img_three{
+        z-index: unset;
+        left: unset;
+    }
+    .img_for{
+        z-index: unset;
+        left: unset;
+    }
+    .sec10{
+        margin-top: unset;
+    }
+    .sec_3_image_cont{
+        max-width: 450px;
+        margin: 10px;
+    }
+    .padding_image_sec5{
+        padding-left: 15px;
+    }
+    .video_box{
+        max-width: 700px;
+        height: 400px;
+    }
+    .sec6_info_content{
+        max-width: 700px;
+    }
+    .sec8_container{
+        max-width: 320px;
+    }
+    .sec9_container{
+        max-width: 330px;
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 767px) {
+
+    .sec9_container{
+        max-width: 510px;
+    }
+    .fl_studio_content_h2 {
+        font-size: 2.5rem;
+    }
+    .logo_image {
+        width: 55px;
+        height: auto;
+    }
+    .sec4_content {
+        max-width: 500px;
+    }
+    .sec_3_image_cont {
+        max-width: 500px;
+    }
+    .sec_3_image_cont {
+        padding: 0;
+    }
+    .video_box{
+        max-width: 520px;
+        height: 280px;
+    }
+    .sec6_info_content{
+        max-width: 520px;
+    }
+    .sec8_container{
+        max-width: 500px;
+    }
+    .sec8_tytle_h2{
+        font-size: 1.5rem;
+    }
+    .value {
+        font-size: 2.5rem;
+        padding-top: 11px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .fl_studio_content_h2 {
+        font-size: 1.8rem;
+    }
+    .form_container_text_h2 {
+        font-size: 1.8rem;
+    }
+    .sec2_text_h2{
+        font-size: 1.2rem;
+    }
+    .padding_container{
+        padding: 0 !important;
+    }
+    .video_box{
+        max-width: 520px;
+        height: auto;
+    }
+}
